@@ -19,7 +19,7 @@ export async function POST(request: NextRequest) {
 
     const data = await res.json();
     return NextResponse.json(data, { status: res.status });
-  } catch (error) {
+  } catch {
     return NextResponse.json({ success: false, error: 'Failed to reach backend' }, { status: 502 });
   }
 }

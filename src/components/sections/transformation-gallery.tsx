@@ -26,7 +26,9 @@ export function TransformationGallery() {
     if (!emblaApi) return;
     const onSelect = () => setActiveIndex(emblaApi.selectedScrollSnap());
     emblaApi.on('select', onSelect);
-    return () => emblaApi.off('select', onSelect);
+    return () => {
+      emblaApi.off('select', onSelect);
+    };
   }, [emblaApi]);
 
   const active = stories[activeIndex] ?? stories[0];

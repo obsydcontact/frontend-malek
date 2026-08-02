@@ -37,7 +37,6 @@ function injectMetaPixel(pixelId: string) {
     let n: any, t: any, s: any;
     if (f.fbq) return;
     n = f.fbq = function (...args: unknown[]) {
-      // @ts-expect-error - dynamic pixel bootstrap follows Meta's official snippet shape
       n.callMethod ? n.callMethod.apply(n, args) : n.queue.push(args);
     };
     if (!f._fbq) f._fbq = n;
@@ -53,8 +52,12 @@ function injectMetaPixel(pixelId: string) {
   })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
   /* eslint-enable */
 
-  window.fbq?.('init', pixelId);
-  window.fbq?.('track', 'PageView');
+  // Cast strips the incorrect flow-narrowing TS applies from the `if (window.fbq)
+  // return;` guard above — the IIFE assigns window.fbq through an `any`-typed
+  // alias, which TS's control-flow analysis can't see, so it still (wrongly)
+  // believes window.fbq is `undefined` here.
+  (window.fbq as Window['fbq'])?.('init', pixelId);
+  (window.fbq as Window['fbq'])?.('track', 'PageView');
 }
 
 function injectTikTokPixel(pixelId: string) {
@@ -91,8 +94,7 @@ function injectSnapPixel(pixelId: string) {
   /* eslint-disable */
   (function (e: any, t: any, n: any) {
     if (e.snaptr) return;
-    let a = (e.snaptr = function (...args: unknown[]) {
-      // @ts-expect-error - dynamic pixel bootstrap follows Snapchat's official snippet shape
+    let a: any = (e.snaptr = function (...args: unknown[]) {
       a.handleRequest ? a.handleRequest.apply(a, args) : a.queue.push(args);
     });
     a.queue = [];
@@ -105,8 +107,9 @@ function injectSnapPixel(pixelId: string) {
   })(window, document, 'https://sc-static.net/scevent.min.js');
   /* eslint-enable */
 
-  window.snaptr?.('init', pixelId);
-  window.snaptr?.('track', 'PAGE_VIEW');
+  // See the cast comment in injectMetaPixel above — same flow-narrowing quirk.
+  (window.snaptr as Window['snaptr'])?.('init', pixelId);
+  (window.snaptr as Window['snaptr'])?.('track', 'PAGE_VIEW');
 }
 
 function loadAllPixels() {
