@@ -1,0 +1,314 @@
+{
+  "metadata": {
+    "siteName": "Coach Malek",
+    "tagline": "Transform Your Body. Transform Your Life.",
+    "defaultTitle": "Coach Malek — Private Fitness Coach in Lausanne | Online Coaching Switzerland",
+    "defaultDescription": "Coach Malek helps busy professionals across Switzerland lose fat, build lean muscle, and create habits that last. Book your free consultation."
+  },
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "transformations": "Transformations",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "contact": "Contact",
+    "bookConsultation": "Book My Consultation"
+  },
+  "common": {
+    "bookConsultation": "Book Your Free Consultation",
+    "bookConsultationShort": "Book My Consultation",
+    "viewSuccessStories": "View Success Stories",
+    "learnMore": "Learn More",
+    "readMore": "Read Article",
+    "backToBlog": "Back to Blog",
+    "skipToContent": "Skip to main content"
+  },
+  "hero": {
+    "eyebrow": "Private Coaching — Lausanne & Switzerland",
+    "headline": "The strongest investment you'll ever make is yourself.",
+    "subheadline": "Coach Malek helps busy professionals across Switzerland lose fat, build lean muscle, and create habits that last — without sacrificing their schedule.",
+    "ctaPrimary": "Book Your Free Consultation",
+    "ctaSecondary": "View Success Stories",
+    "scrollHint": "Explore"
+  },
+  "trustBar": {
+    "clientsValue": "250+",
+    "clientsLabel": "Clients Transformed",
+    "successRateValue": "96%",
+    "successRateLabel": "Success Rate",
+    "yearsValue": "5 Years",
+    "yearsLabel": "Coaching Experience",
+    "ratingValue": "4.9/5",
+    "ratingLabel": "Average Client Rating",
+    "certificationLine": "NASM Certified & Sports Nutrition Certified",
+    "paymentLine": "Secure Payment — Visa, Mastercard, TWINT",
+    "bookingLine": "Secure Booking via Calendly"
+  },
+  "about": {
+    "sectionLabel": "The Story",
+    "headline": "Why I chose to coach people, not just train them.",
+    "bodyPart1": "After years of watching the same pattern repeat — brilliant, disciplined professionals who were failed by generic programs that never accounted for their real life — I realized the problem was never motivation. It was the method.",
+    "bodyPart2": "Coach Malek was built on one belief: lasting transformation doesn't come from a perfect program. It comes from coaching that adapts to your life, week after week. No miracle promises. No absurd restrictions. A structured, measurable method — built for people with no time to waste.",
+    "missionLabel": "Mission",
+    "mission": "Help 1,000 Swiss professionals take back control of their body and energy — without sacrificing their career.",
+    "visionLabel": "Vision",
+    "vision": "Become Switzerland's reference for premium coaching, where results and client respect are never negotiable.",
+    "valuesLabel": "Values",
+    "values": [
+      { "title": "Discipline", "description": "Every plan is measured, adjusted, and documented. Nothing is left to chance." },
+      { "title": "Honesty", "description": "I'll tell you what works — not what you want to hear." },
+      { "title": "Standards", "description": "I only take clients ready to commit — and I commit at the same level." }
+    ],
+    "timelineLabel": "The Journey",
+    "timeline": [
+      { "year": "2021", "text": "Bachelor's degree in Sport and Movement Sciences. Fitness Coach certification." },
+      { "year": "2022", "text": "Sports Nutrition certification" },
+      { "year": "2023", "text": "Launch of my personal coaching services, in-person and online" },
+      { "year": "2024", "text": "200+ transformations coached" },
+      { "year": "2026", "text": "Coach Malek becomes a premium coaching brand" }
+    ]
+  },
+  "services": {
+    "sectionLabel": "What I Offer",
+    "headline": "Coaching, not a subscription.",
+    "benefitsLabel": "Benefits",
+    "includedLabel": "What's Included",
+    "idealClientLabel": "Ideal Client",
+    "items": {
+      "personalTraining": {
+        "slug": "personal-training",
+        "title": "Personal Training",
+        "hook": "The most direct path: I'm by your side, session after session.",
+        "benefits": ["Perfect technique from day one", "Measured progress every session", "Accountability built into every session"],
+        "included": ["1-on-1 sessions in a private Lausanne studio", "Program adjusted weekly", "Baseline nutrition guidance", "Direct WhatsApp access"],
+        "idealClient": "You're based in Lausanne and prefer face-to-face coaching.",
+        "cta": "Book My Consultation"
+      },
+      "onlineCoaching": {
+        "slug": "online-coaching",
+        "title": "Online Coaching",
+        "hook": "The same standard, wherever you are in Switzerland.",
+        "benefits": ["Total schedule flexibility", "Daily remote check-ins", "Weekly adjustments based on your data"],
+        "included": ["Personalized training program", "Tracking via dedicated app", "Weekly video calls", "7-day message support"],
+        "idealClient": "You travel often or work unpredictable hours.",
+        "cta": "Start My Online Coaching"
+      },
+      "nutritionCoaching": {
+        "slug": "nutrition-coaching",
+        "title": "Nutrition Coaching",
+        "hook": "Eating better without counting every gram for the rest of your life.",
+        "benefits": ["Plans built around your real meals", "No absolute restrictions", "Nutrition education that lasts"],
+        "included": ["Full nutrition assessment", "Personalized meal plan", "Adjustments based on your results", "Simplified macro tracking"],
+        "idealClient": "You already eat \"fine\" but see no results.",
+        "cta": "Optimize My Nutrition"
+      },
+      "bodyRecomposition": {
+        "slug": "body-recomposition",
+        "title": "Body Recomposition",
+        "hook": "Lose fat and build muscle — at the same time, not one after the other.",
+        "benefits": ["A redefined physique, not just a lighter one", "Strength and energy climbing steadily", "Visible results in 8–12 weeks"],
+        "included": ["Hybrid strength + metabolic program", "Periodized nutrition", "Monthly photos and measurements", "Data-driven adjustments"],
+        "idealClient": "You want an athletic physique, not just a number on the scale.",
+        "cta": "Transform My Physique"
+      },
+      "weightLoss": {
+        "slug": "weight-loss",
+        "title": "Weight Loss",
+        "hook": "Lose weight the structured way — and never gain it back.",
+        "benefits": ["Fat loss without muscle loss", "No extreme dieting", "Maintenance strategy included"],
+        "included": ["Personalized caloric deficit", "Tailored training program", "Habit coaching", "Weekly check-ins"],
+        "idealClient": "You've tried multiple diets without lasting results.",
+        "cta": "Start My Weight Loss"
+      },
+      "muscleBuilding": {
+        "slug": "muscle-building",
+        "title": "Muscle Building",
+        "hook": "Build a strong, dense, functional physique.",
+        "benefits": ["Measurable muscle gain", "Smart progressive programming", "Performance-driven nutrition"],
+        "included": ["Structured strength program", "Calculated caloric surplus", "Progressive overload tracking", "Monthly adjustments"],
+        "idealClient": "You want strength and size — without guessing what works.",
+        "cta": "Build My Strength"
+      }
+    }
+  },
+  "gallery": {
+    "sectionLabel": "Real Results",
+    "headline": "Every transformation tells a different story.",
+    "subhead": "Real clients, real results.",
+    "lostLabel": "Lost",
+    "gainedLabel": "Gained",
+    "durationLabel": "Duration",
+    "lifestyleLabel": "Lifestyle",
+    "beforeLabel": "Before",
+    "afterLabel": "After",
+    "stories": [
+      { "name": "Client — Lausanne", "quote": "Weight loss and a completely transformed posture in just 2 months, training 4 times a week.", "stat": "Weight trending down", "duration": "2 months", "lifestyle": "Better posture, renewed confidence" },
+      { "name": "Client — Online Coaching", "quote": "Visible muscle gain in just 3 weeks of structured coaching.", "stat": "Muscle gained", "duration": "3 weeks", "lifestyle": "More toned arms and chest" },
+      { "name": "Client — Lausanne", "quote": "-12 kg of fat and +2.1 kg of muscle — body recomposition, measured and proven.", "stat": "-12 kg of fat", "duration": "Body recomposition", "lifestyle": "+2.1 kg of muscle, more energy" }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "What They Say",
+    "headline": "Trust is earned. Here's what our clients say.",
+    "items": [
+      { "name": "Sophie R.", "role": "Marketing Director, Lausanne", "quote": "Coach Malek completely changed my relationship with fitness. For the first time, I have a plan that works around my crazy schedule — not the other way around." },
+      { "name": "Thomas B.", "role": "Lawyer, Geneva", "quote": "Real results in 3 months. What struck me most was the seriousness of the follow-up — every week, an adjustment, never guesswork." },
+      { "name": "Élodie M.", "role": "Consultant, Lausanne", "quote": "I tried 3 coaches before him. None had this level of rigor and clarity. I recommend without hesitation." },
+      { "name": "David K.", "role": "IT Project Manager, Zurich (online coaching)", "quote": "Remotely, I feared it would be less effective. It's the opposite — the tracking is even more precise than in a gym." }
+    ],
+    "videoLabel": "On Video",
+    "videoHeadline": "They say it better than we ever could.",
+    "videoItems": [
+      { "caption": "Client video testimonial" },
+      { "caption": "Client video testimonial" },
+      { "caption": "Client video testimonial" }
+    ]
+  },
+  "comparison": {
+    "sectionLabel": "The Difference",
+    "headline": "Why not just a gym membership?",
+    "columnAwMalek": "Coach Malek",
+    "columnGeneric": "Generic Gym",
+    "rows": [
+      "Personalized coaching",
+      "Weekly adjustments",
+      "Nutrition included",
+      "Habit coaching",
+      "Daily support",
+      "Progress tracking",
+      "Result-driven accountability"
+    ],
+    "closingLine": "A gym gives you access. Coach Malek gives you a result."
+  },
+  "process": {
+    "sectionLabel": "How It Works",
+    "headline": "Four steps to your transformation.",
+    "steps": [
+      { "title": "Book Your Consultation", "description": "A free 20-minute call to understand your goals and your reality." },
+      { "title": "Full Assessment", "description": "Analysis of your fitness level, nutrition, and life constraints." },
+      { "title": "Personal Plan", "description": "A training and nutrition program designed only for you." },
+      { "title": "Transform", "description": "Tracking, adjustments, and measured results — week after week." }
+    ]
+  },
+  "pricing": {
+    "sectionLabel": "Our Packs",
+    "headline": "A pack designed for every goal.",
+    "subhead": "Every pack starts from 150 CHF. Your exact rate is confirmed together during your free consultation, based on your goals and pace.",
+    "startingFrom": "Starting from 150 CHF",
+    "mostPopular": "Most Popular",
+    "remoteBadge": "100% Remote",
+    "cta": "Book My Consultation",
+    "finePrint": "No long-term commitment. Your final rate is confirmed during your free assessment.",
+    "plans": [
+      {
+        "name": "Starter Pack",
+        "tagline": "To start or get back into sport",
+        "included": ["4 sessions", "1 session per week", "Assessment + personalized program", "The perfect way to discover your coaching"]
+      },
+      {
+        "name": "Transformation Pack",
+        "tagline": "To lose weight, tone up or build muscle",
+        "included": ["8 sessions", "2 sessions per week", "Personalized coaching", "Nutrition guidance", "WhatsApp follow-up"]
+      },
+      {
+        "name": "Online Coaching 360",
+        "tagline": "For those who can't make it to the gym",
+        "included": ["Personalized program", "Meal plan", "Weekly check-ins", "Regular adjustments", "Support by message"]
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Frequently Asked Questions",
+    "headline": "Everything you need to know.",
+    "items": [
+      { "question": "Do I need to already be in shape to start?", "answer": "No. Most of my clients start with no structured training experience. The program adapts to your current level — not the other way around." },
+      { "question": "Is online coaching as effective as in-person?", "answer": "Yes. Remote coaching relies on the same data, the same weekly adjustments, and daily contact. Distance doesn't change the rigor." },
+      { "question": "How long before I see results?", "answer": "Early changes (energy, sleep, strength) appear within 2–3 weeks. Significant visible changes typically arrive between week 8 and week 12." },
+      { "question": "What happens during the free consultation?", "answer": "A 20-minute call to understand your situation, your goals, and whether we're the right fit for each other. No pressure, no commitment." },
+      { "question": "Do you offer a nutrition plan even if I travel often?", "answer": "Yes. The plan is built to adapt to restaurants, business travel, and last-minute changes — not to lock you into a kitchen." },
+      { "question": "Can I cancel anytime?", "answer": "Yes, all plans are month-to-month with no long-term commitment." }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to invest in yourself? Book your free consultation today.",
+    "button": "Book Your Free Consultation"
+  },
+  "contactForm": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "goalLabel": "Primary Goal",
+    "goalPlaceholder": "Select your goal",
+    "goals": {
+      "weight_loss": "Weight Loss",
+      "muscle_building": "Muscle Building",
+      "body_recomposition": "Body Recomposition",
+      "online_coaching": "Online Coaching",
+      "personal_training": "Personal Training",
+      "nutrition_coaching": "Nutrition Coaching",
+      "other": "Other"
+    },
+    "message": "Message",
+    "messagePlaceholder": "Tell me about your goal and your schedule...",
+    "submit": "Send My Request",
+    "submitting": "Sending...",
+    "successTitle": "Message sent.",
+    "successBody": "Thank you! I'll get back to you within 24 hours. In the meantime, feel free to reach out on WhatsApp too.",
+    "errorTitle": "Something went wrong.",
+    "errorBody": "Please try again or contact me directly on WhatsApp.",
+    "validation": {
+      "required": "This field is required.",
+      "email": "Please enter a valid email address.",
+      "phone": "Please enter a valid phone number."
+    }
+  },
+  "newsletter": {
+    "headline": "Get training and nutrition insights once a month. Nothing more.",
+    "placeholder": "Your email",
+    "submit": "Subscribe",
+    "success": "Thanks for subscribing!"
+  },
+  "contactPage": {
+    "headline": "Let's talk about your transformation.",
+    "subhead": "Book a call, message on WhatsApp, or send a message. Guaranteed response within 24 hours.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "whatsappLabel": "WhatsApp",
+    "instagramLabel": "Instagram",
+    "addressLabel": "Studio",
+    "hoursLabel": "Hours",
+    "hours": "Monday–Friday, 7am–8pm"
+  },
+  "footer": {
+    "newsletterHeadline": "Get training and nutrition insights once a month. Nothing more.",
+    "newsletterCta": "Subscribe",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved.",
+    "tagline": "Transform Your Body. Transform Your Life."
+  },
+  "blog": {
+    "sectionLabel": "Blog",
+    "headline": "Fitness & Nutrition Insights",
+    "subhead": "Articles built for busy Swiss professionals.",
+    "pillars": {
+      "weight-loss": "Weight Loss",
+      "nutrition": "Nutrition",
+      "healthy-lifestyle": "Healthy Lifestyle",
+      "muscle-building": "Muscle Building",
+      "swiss-fitness-tips": "Swiss Fitness Tips",
+      "meal-prep": "Meal Prep"
+    }
+  },
+  "whatsapp": {
+    "defaultMessage": "Hi, I'd like to know more about Coach Malek coaching.",
+    "ariaLabel": "Contact Coach Malek on WhatsApp"
+  },
+  "booking": {
+    "dialogTitle": "Book Your Free Consultation",
+    "dialogDescription": "Choose a time that works for you. The call takes about 20 minutes."
+  }
+}

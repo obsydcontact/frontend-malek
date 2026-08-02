@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #f7f7f4;
+  --color-primary: #111111;
+  --color-gold: #c9a76a;
+  --color-gray: #4b5563;
+  --color-white: #ffffff;
+  --radius: 20px;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: auto; /* Lenis takes over smooth scrolling; see smooth-scroll-provider.tsx */
+    /* Works around a known Framer Motion useScroll false-positive warning
+       ("container has a non-static position") that fires even when the
+       target ref itself is correctly positioned — see motiondivision/motion#1853. */
+    position: relative;
+  }
+
+  body {
+    @apply bg-background text-primary font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading font-medium tracking-tight;
+  }
+
+  /* Visible focus ring on every interactive element, never only on hover —
+     required for the 100/100 Accessibility target (docs/10-seo-strategy.md). */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible,
+  [role='button']:focus-visible,
+  [tabindex]:focus-visible {
+    @apply outline-none ring-2 ring-gold ring-offset-2 ring-offset-background;
+  }
+}
+
+@layer utilities {
+  .text-eyebrow {
+    @apply text-xs uppercase tracking-[0.2em] text-gold font-medium;
+  }
+
+  .container-page {
+    @apply mx-auto w-full max-w-content px-6 md:px-10 lg:px-16;
+  }
+
+  .section-padding {
+    @apply py-24 md:py-32 lg:py-40;
+  }
+}
+
+/* Respect reduced-motion preference globally: disable animation duration/
+   iteration for anyone who has requested it at the OS level, as a hard
+   safety net on top of the useReducedMotion() checks in each component. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
