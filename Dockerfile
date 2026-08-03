@@ -22,6 +22,11 @@ WORKDIR /app
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
 ENV PORT=3000
+# Docker injects HOSTNAME=<container-id> into every container, and Next.js's
+# standalone server binds to `process.env.HOSTNAME || '0.0.0.0'`. Without this
+# override it binds only to the container's own IP, so the loopback HEALTHCHECK
+# below is refused and the container is reported unhealthy.
+ENV HOSTNAME=0.0.0.0
 
 RUN addgroup --system --gid 1001 nodejs \
   && adduser --system --uid 1001 nextjs
