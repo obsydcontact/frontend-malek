@@ -20,7 +20,7 @@ interface ServiceItem {
   hook: string;
   benefits: string[];
   included: string[];
-  idealClient: string;
+  idealClient?: string;
   cta: string;
 }
 
@@ -57,8 +57,12 @@ export function Services() {
                     </ul>
                   </div>
 
-                  <p className="mt-6 text-xs uppercase tracking-wide text-gray">{t('idealClientLabel')}</p>
-                  <p className="mt-1 text-sm text-primary">{item.idealClient}</p>
+                  {item.idealClient && (
+                    <>
+                      <p className="mt-6 text-xs uppercase tracking-wide text-gray">{t('idealClientLabel')}</p>
+                      <p className="mt-1 text-sm text-primary">{item.idealClient}</p>
+                    </>
+                  )}
 
                   <div className="mt-8">
                     <BookingCta location={`service-card-${item.slug}`} variant="secondary" className="w-full">

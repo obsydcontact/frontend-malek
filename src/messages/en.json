@@ -99,7 +99,6 @@
         "hook": "Eating better without counting every gram for the rest of your life.",
         "benefits": ["Plans built around your real meals", "No absolute restrictions", "Nutrition education that lasts"],
         "included": ["Full nutrition assessment", "Personalized meal plan", "Adjustments based on your results", "Simplified macro tracking"],
-        "idealClient": "You already eat \"fine\" but see no results.",
         "cta": "Optimize My Nutrition"
       },
       "bodyRecomposition": {

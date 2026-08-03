@@ -26,7 +26,7 @@ interface ServiceItem {
   hook: string;
   benefits: string[];
   included: string[];
-  idealClient: string;
+  idealClient?: string;
   cta: string;
 }
 
@@ -117,10 +117,12 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               </ul>
             </div>
 
-            <div className="mt-8 rounded-[20px] bg-gold/5 p-6">
-              <p className="text-eyebrow">{t('idealClientLabel')}</p>
-              <p className="mt-2 text-primary">{service.idealClient}</p>
-            </div>
+            {service.idealClient && (
+              <div className="mt-8 rounded-[20px] bg-gold/5 p-6">
+                <p className="text-eyebrow">{t('idealClientLabel')}</p>
+                <p className="mt-2 text-primary">{service.idealClient}</p>
+              </div>
+            )}
 
             <BookingCta location={`service-detail-${slug}`} size="lg" className="mt-8">
               {service.cta}

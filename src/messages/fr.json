@@ -26,7 +26,7 @@
   "hero": {
     "eyebrow": "Coaching Privé — Lausanne & Suisse",
     "headline": "L'investissement le plus rentable que vous ferez jamais, c'est vous-même.",
-    "subheadline": "Coach Malek accompagne les professionnels exigeants à travers la Suisse pour perdre du gras, gagner du muscle et bâtir des habitudes durables — sans sacrifier leur emploi du temps.",
+    "subheadline": "Que votre objectif soit de perdre du poids, gagner du muscle ou retrouver votre forme, je vous accompagne avec un programme personnalisé, un suivi régulier et une méthode qui s'intègre à votre rythme de vie.",
     "ctaPrimary": "Réserver ma consultation gratuite",
     "ctaSecondary": "Voir les transformations",
     "scrollHint": "Découvrir"
@@ -99,7 +99,6 @@
         "hook": "Manger mieux sans compter chaque gramme pour le reste de votre vie.",
         "benefits": ["Plans construits autour de vos repas réels", "Aucune interdiction absolue", "Éducation nutritionnelle durable"],
         "included": ["Bilan nutritionnel complet", "Plan alimentaire personnalisé", "Ajustements selon vos résultats", "Suivi des macros simplifié"],
-        "idealClient": "Vous mangez déjà \"correctement\" mais ne voyez pas de résultats.",
         "cta": "Optimiser mon alimentation"
       },
       "bodyRecomposition": {
