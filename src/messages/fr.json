@@ -80,7 +80,7 @@
         "title": "Personal Training",
         "hook": "L'accompagnement le plus direct : je suis à vos côtés, séance après séance.",
         "benefits": ["Technique parfaite dès le premier jour", "Progression mesurée à chaque séance", "Motivation portée par la présence"],
-        "included": ["Séances 1-à-1 en studio privé à Lausanne", "Programme adapté chaque semaine", "Suivi nutritionnel de base", "Accès direct par WhatsApp"],
+        "included": ["Séances 1-à-1 privé à Lausanne", "Programme adapté chaque semaine", "Suivi nutritionnel de base", "Accès direct par WhatsApp"],
         "idealClient": "Vous êtes basé à Lausanne et préférez un accompagnement en présentiel.",
         "cta": "Réserver ma consultation"
       },
