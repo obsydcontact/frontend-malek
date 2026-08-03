@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { Mail, MessageCircle, Phone, Instagram, MapPin, Clock } from 'lucide-react';
+import { Mail, Phone, Instagram, MapPin, Clock } from 'lucide-react';
 import { Reveal } from '@/components/motion/reveal';
 import { ContactForm } from '@/components/forms/contact-form';
 import { JsonLd } from '@/components/seo/json-ld';
+import { WhatsappIcon } from '@/components/icons/whatsapp-icon';
 import { getBreadcrumbSchema, getLocalBusinessSchema } from '@/lib/seo';
 import { siteConfig } from '@/lib/constants';
 import { formatPhoneDisplay } from '@/lib/utils';
@@ -65,7 +66,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <MessageCircle className="mt-1 h-5 w-5 text-gold" strokeWidth={1.5} />
+                <WhatsappIcon className="mt-1 h-5 w-5 text-gold" />
                 <div>
                   <dt className="text-sm font-medium text-primary">{t('whatsappLabel')}</dt>
                   <dd>

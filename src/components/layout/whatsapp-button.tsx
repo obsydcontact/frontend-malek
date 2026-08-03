@@ -1,9 +1,9 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { MessageCircle } from 'lucide-react';
 import { siteConfig } from '@/lib/constants';
 import { track } from '@/lib/analytics/track';
+import { WhatsappIcon } from '@/components/icons/whatsapp-icon';
 
 /**
  * Floating WhatsApp button, present on every page. Fires a Contact
@@ -25,7 +25,7 @@ export function WhatsappButton() {
       onClick={() => track('Contact', { content_name: 'WhatsApp Floating Button' })}
       className="fixed bottom-6 right-6 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-soft-lg transition-transform duration-200 ease-premium hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2"
     >
-      <MessageCircle className="h-7 w-7" strokeWidth={1.75} fill="currentColor" />
+      <WhatsappIcon className="h-7 w-7" />
     </a>
   );
 }
